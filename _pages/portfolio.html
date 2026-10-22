@@ -1,14 +1,16 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Selected projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
+<p>Selected work in enterprise AI, security operations and user-centered design.</p>
 
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+{% for project in site.data.cv.projects %}
+<h2>{{ project.name | escape }}</h2>
+<p><strong>{{ project.context | escape }}</strong></p>
+<p>{{ project.description | escape }}</p>
+<ul>{% for detail in project.details %}<li>{{ detail | escape }}</li>{% endfor %}</ul>
+<p><strong>Focus:</strong> {{ project.technologies | join: ", " | escape }}</p>
 {% endfor %}
-

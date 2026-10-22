@@ -12,4 +12,4 @@ comments: false
 
 Presented at PACIS 2026. The [official program](https://pacis2026.aisconferences.org/events/program-schedule/) lists paper 1766 in session S03-06, Digital Security, Privacy, Ethics, and Resilience IV, on 8 July 2026.
 
-[Proceedings record](https://aisel.aisnet.org/pacis2026/dig_sec/dig_sec/10/). Presentation materials will be added when available for public sharing.
+[Proceedings record](https://aisel.aisnet.org/pacis2026/dig_sec/dig_sec/10/).

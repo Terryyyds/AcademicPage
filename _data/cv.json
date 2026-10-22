@@ -1,79 +1,339 @@
 {
   "basics": {
-    "name": "Yu Deng",
-    "email": "",
-    "phone": "",
-    "website": "",
-    "summary": "Research interests: Zero Trust Architecture and SME security readiness. Education and volunteer teaching entries are self-reported on LinkedIn; degree details and current professional appointments are to be confirmed.",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "",
-      "countryCode": "",
-      "region": ""
-    },
+    "name": "Yu (Terry) Deng",
+    "nativeName": "邓煜",
+    "label": "PhD Student in Management Science and Engineering",
+    "email": "realterrydeng@gmail.com",
+    "summary": "I am a PhD student at Xi'an Jiaotong University, with a research focus on machine learning. My interests connect information systems, cybersecurity and AI security. My professional experience includes enterprise AI assistants, security operations, IT infrastructure and user support.",
     "profiles": [
       {
         "network": "GitHub",
-        "username": "Terryyyds",
         "url": "https://github.com/Terryyyds"
       },
       {
         "network": "LinkedIn",
-        "username": "yu-deng-396901303",
         "url": "https://www.linkedin.com/in/yu-deng-396901303/"
       }
     ]
   },
-  "work": [],
+  "researchInterests": [
+    "Machine learning",
+    "Information systems and cybersecurity",
+    "AI and large language model security",
+    "Zero Trust Architecture",
+    "Organizational technology adoption and user behavior"
+  ],
   "education": [
     {
       "institution": "Xi'an Jiaotong University",
-      "area": "Degree and field to be confirmed",
-      "studyType": "",
-      "startDate": "2026",
-      "endDate": "Present (profile-listed; current enrollment to be confirmed)",
-      "courses": []
+      "area": "Management Science and Engineering",
+      "studyType": "PhD, in progress",
+      "period": "September 2026–present",
+      "startDate": "2026-09",
+      "details": [
+        "Research focus: machine learning.",
+        "Study areas include machine learning and decision analysis, advanced game theory, and optimization."
+      ]
     },
     {
       "institution": "University of Canterbury",
-      "area": "Degree and field to be confirmed",
-      "studyType": "",
+      "area": "Business Information Systems",
+      "studyType": "Master's degree",
+      "period": "2023–2025",
       "startDate": "2023",
-      "endDate": "2025 (profile-listed; completion status to be confirmed)",
-      "courses": []
+      "endDate": "2025",
+      "details": [
+        "Thesis: Feasibility of Deploying Zero Trust Architecture (ZTA) in Enterprises.",
+        "Study areas include information systems security and risk management, business research methods, AI in business, systems analysis, and database management."
+      ]
+    },
+    {
+      "institution": "Shanghai Sanda University",
+      "area": "Network and New Media",
+      "studyType": "Bachelor's degree",
+      "period": "2019–2023",
+      "startDate": "2019",
+      "endDate": "2023",
+      "details": [
+        "Graduation project: Qitu (器途), a prototype for a tool application.",
+        "Study areas include UI/UX prototyping, information visualization, user experience and interaction design, social research, and Python programming."
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+  "work": [
+    {
+      "company": "Cloudfall",
+      "position": "Security Analyst",
+      "period": "2025–2026",
+      "highlights": [
+        "Developed AI agents and Dify workflows for alert triage and security analysis in an AI-powered SIEM platform.",
+        "Built SIEM dashboards and log pipelines with Splunk, ELK and OpenSearch.",
+        "Maintained incident-response procedures, runbooks and ticketing workflows in Jira and ManageEngine, with knowledge bases in Confluence and Feishu Wiki.",
+        "Supported security exercises, vulnerability management and remediation reporting."
+      ]
+    },
+    {
+      "company": "Humanoid Robots",
+      "position": "Engineering Internship — IT and Information Security",
+      "period": "2025",
+      "highlights": [
+        "Built and deployed an internal knowledge assistant using full-parameter LLM fine-tuning, retrieval-augmented generation (RAG) and Dify workflows.",
+        "Developed a domain-enrollment tool and supported Microsoft Active Directory and Windows, macOS and Linux endpoints.",
+        "Deployed infrastructure and Zabbix monitoring, resolved technical issues, and documented information-security policies.",
+        "Delivered employee training and supported security-awareness activities."
+      ]
+    },
+    {
+      "company": "Business Canterbury, New Zealand",
+      "position": "Consulting Intern",
+      "period": "2024",
+      "highlights": [
+        "Assessed security practices against ISO 27001, benchmarked peer organizations and prepared compliance checklists.",
+        "Contributed a security assessment report with recommendations for access control and permissions."
+      ]
+    },
+    {
+      "company": "Apple",
+      "position": "Specialist Intern",
+      "period": "2021–2022",
+      "highlights": [
+        "Identified customer needs and explained suitable products and solutions.",
+        "Supported device troubleshooting, system recovery, data migration and personalized setup."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "AI and development",
+      "keywords": [
+        "Python",
+        "Shell",
+        "SQL",
+        "RAG",
+        "Dify",
+        "LLM fine-tuning and local deployment",
+        "Web development"
+      ]
+    },
+    {
+      "name": "Security and infrastructure",
+      "keywords": [
+        "Splunk",
+        "ELK",
+        "OpenSearch",
+        "Docker",
+        "Microsoft Active Directory",
+        "Zabbix",
+        "Linux",
+        "macOS",
+        "Windows"
+      ]
+    },
+    {
+      "name": "Workflows and knowledge management",
+      "keywords": [
+        "Jira",
+        "ManageEngine",
+        "Confluence",
+        "Feishu Wiki",
+        "Incident-response runbooks",
+        "Security documentation"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Splunk Core Certified Power User",
+      "issuer": "Splunk",
+      "date": "2026"
+    },
+    {
+      "name": "Certified Information Security Professional (CISP)",
+      "date": "2025"
+    },
+    {
+      "name": "National Information Security Test Program (NISP), Levels I and II"
+    },
+    {
+      "name": "Apple Teacher with Swift"
+    },
+    {
+      "name": "National Computer Rank Examination (NCRE), Level 2"
+    },
+    {
+      "name": "Shanghai Computer Proficiency Examination, Level 1"
+    },
+    {
+      "name": "College English Test, Band 6 (CET-6)",
+      "detail": "Score: 512"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's Scholarship",
+      "awarder": "University of Canterbury"
+    },
+    {
+      "title": "Business School Academic Excellence Scholarship, first prize",
+      "detail": "Two awards"
+    },
+    {
+      "title": "National Encouragement Scholarship",
+      "detail": "Two awards"
+    },
+    {
+      "title": "Shanghai Outstanding Graduate"
+    },
+    {
+      "title": "Shanghai Outstanding Graduation Design",
+      "date": "2023"
+    },
+    {
+      "title": "Outstanding Graduate and Outstanding Graduation Design",
+      "awarder": "Shanghai Sanda University"
+    },
+    {
+      "title": "Shehid Comprehensive Scholarships, second and third prizes",
+      "awarder": "Shanghai Sanda University"
+    },
+    {
+      "title": "Shehid Subject Scholarship in English",
+      "awarder": "Shanghai Sanda University"
+    },
+    {
+      "title": "Second Prize, National College Digital Art and Design Competition (NCDA)"
+    },
+    {
+      "title": "Shanghai Star Volunteer"
+    },
+    {
+      "title": "Freshman Scholarship"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Mandarin Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "teaching": [
+    {
+      "course": "Everyone Can Code: Swift Playgrounds",
+      "institution": "Apple & Hands-on Shanghai",
+      "period": "December 2021–January 2022",
+      "role": "Volunteer Swift Coach",
+      "description": "Supported introductory programming for primary-school pupils in Shanghai through practical demonstrations, question answering and classroom assistance."
+    },
+    {
+      "course": "Employee information-security training",
+      "institution": "Humanoid Robots",
+      "period": "2025",
+      "role": "Training and documentation",
+      "description": "Prepared security guidance and delivered employee training as part of the IT and information-security internship."
+    }
+  ],
+  "service": [
+    {
+      "name": "China Digital Entertainment Expo & Conference (ChinaJoy)",
+      "role": "Volunteer",
+      "period": "2020"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Enterprise Knowledge Assistant",
+      "context": "Humanoid Robots · 2025",
+      "description": "An internal assistant for knowledge-base questions and document drafting, combining LLM fine-tuning, RAG and Dify workflows.",
+      "details": [
+        "Prepared conversational instruction data and retrieval pipelines for internal knowledge access.",
+        "Integrated the assistant with business workflows and supported deployment across the company."
+      ],
+      "technologies": [
+        "LLM fine-tuning",
+        "RAG",
+        "Dify",
+        "Knowledge bases"
+      ]
+    },
+    {
+      "name": "AI-assisted Security Operations",
+      "context": "Cloudfall · 2025–2026",
+      "description": "AI agents and operational workflows to help security analysts triage alerts, consult knowledge bases and document incident response.",
+      "details": [
+        "Connected AI workflows with SIEM analysis, dashboards and log pipelines.",
+        "Organized reusable runbooks, ticketing processes and remediation guidance."
+      ],
+      "technologies": [
+        "Dify",
+        "Splunk",
+        "ELK",
+        "OpenSearch",
+        "Jira"
+      ]
+    },
+    {
+      "name": "Qitu (器途): Tool Application Prototype",
+      "context": "Undergraduate graduation project · 2023",
+      "description": "A UI/UX prototype for equipment enquiries, purchase and rental, and community sharing.",
+      "details": [
+        "Designed application flows and interface prototypes around equipment-related user needs."
+      ],
+      "technologies": [
+        "UI/UX",
+        "Interaction design",
+        "Prototyping"
+      ]
+    }
+  ],
   "publications": [
     {
       "name": "Towards Zero Trust Architecture: A Pilot Study on Information Systems Security Readiness amongst Small and Medium Enterprises",
+      "authors": "Yu Deng and Anushia Inthiran",
       "publisher": "PACIS 2026 Proceedings, 10",
       "releaseDate": "2026-07-05",
+      "type": "Conference paper",
       "website": "https://aisel.aisnet.org/pacis2026/dig_sec/dig_sec/10/",
-      "summary": "Yu Deng and Anushia Inthiran. Complete paper; conference paper number PACIS2026-1766."
+      "summary": "Complete paper, PACIS2026-1766.",
+      "links": [
+        {
+          "label": "Proceedings",
+          "url": "https://aisel.aisnet.org/pacis2026/dig_sec/dig_sec/10/"
+        },
+        {
+          "label": "Preprint",
+          "url": "https://arxiv.org/abs/2605.18901"
+        }
+      ]
+    },
+    {
+      "name": "MILE: A Mechanically Isomorphic Hand Exoskeleton and Visuotactile Robotic Hand for Data Collection in Dexterous Manipulation",
+      "authors": "Jinda Du, Jieji Ren, Qiaojun Yu, Ningbin Zhang, Yu Deng, Xingyu Wei, Yufei Liu, Guoying Gu, and Xiangyang Zhu",
+      "publisher": "arXiv:2512.00324",
+      "releaseDate": "2025-11-29",
+      "type": "Preprint",
+      "website": "https://arxiv.org/abs/2512.00324",
+      "summary": "Preprint first posted in 2025; revised in September 2026.",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2512.00324"
+        }
+      ]
     }
   ],
   "presentations": [
     {
       "name": "Towards Zero Trust Architecture: A Pilot Study on Information Systems Security Readiness amongst Small and Medium Enterprises",
-      "event": "PACIS 2026",
+      "event": "Pacific Asia Conference on Information Systems (PACIS 2026)",
       "date": "2026-07-08",
+      "period": "8 July 2026",
       "location": "Jakarta, Indonesia",
-      "description": "Conference presentation; session S03-06. Official program: https://pacis2026.aisconferences.org/events/program-schedule/"
+      "description": "Conference presentation, session S03-06.",
+      "url": "https://pacis2026.aisconferences.org/events/program-schedule/"
     }
-  ],
-  "teaching": [
-    {
-      "course": "Introductory Swift programming (volunteer)",
-      "institution": "Apple (as listed on LinkedIn)",
-      "date": "2021-12",
-      "role": "Swift Teaching Coach",
-      "description": "December 2021–January 2022; programming instruction for primary school pupils. Source: LinkedIn profile."
-    }
-  ],
-  "portfolio": []
+  ]
 }

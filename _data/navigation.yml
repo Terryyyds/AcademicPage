@@ -1,10 +1,13 @@
-# Preserve the existing routes; show the sections with useful profile content.
 main:
   - title: "About"
     url: /
-  - title: "Publications"
+  - title: "Research"
     url: /publications/
+  - title: "Projects"
+    url: /portfolio/
   - title: "Talks"
     url: /talks/
+  - title: "Teaching"
+    url: /teaching/
   - title: "CV"
     url: /cv/
